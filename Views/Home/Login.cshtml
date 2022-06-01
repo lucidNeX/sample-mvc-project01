@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+
+<style>
+    .box1 {
+        height: auto;
+        /*width: 400px;*/
+        line-height: 20%;
+        /*padding: 10px;*/
+        background-color: rgb(179 208 240);
+        border-radius: 8px;
+    }
+   .transparent{
+       background-color:transparent;
+   }
+
+    body {
+        height:80%;
+    }
+    .col {  
+        padding:4px;
+        padding-left:0px;
+        margin-left:0px;
+        margin-top:12px;
+    }
+    label,input,div{
+    }
+        input:focus {
+            border-color:blue;
+            border-collapse:collapse;
+            
+        }
+
+    
+</style>
+
+<body>
+    <div class="card offset-4 col-sm-4 col-md-4 box1">
+        <h2 class="text-center">Login</h2>
+        <div class="card-body align-content-center">
+            <label class=" col-sm-4 col-md-4">User name</label>
+            <input type="text" id="username" class="col-sm-7 col-md-7" style="border-radius: 3px;height:30px; border-color: rgb(179 208 250)" >
+
+            <label class="col-sm-4 col-md-4">Password</label>
+            <input type="text" id="password" class="col-sm-7 col-md-7" style="border-radius: 3px; height: 30px; border-color: rgb(179 208 250) ">
+            <div class="row" style="margin-top:12px;">
+                <button class="btn btn-success offset-9 col-sm-2 col-md-2" style="height:35px; font-size: 10px;" type="submit">Login</button>
+            </div>
+            <div class="row" style="padding-top: 12px; margin-left: 15%; font-size: 10px;">
+                <a href="" class="offset-8 col-sm-4 col-md-4 " >Forgot password</a>
+            </div>
+            <div class="row" style="padding-top:12px;margin-left:15%; font-size: 10px;">
+                <a href="" class="offset-8 col-sm-4 col-md-4 ">Create new</a>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer" style="margin-top:10%;">
+        <label class="text-sm-end text-center" style=" font-size:8px;">Sample project 001</label>
+    </div>
+
+</body>

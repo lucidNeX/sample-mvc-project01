@@ -26,5 +26,11 @@ namespace sample_mvc_project01.Controllers
 
             return View();
         }
+
+        public ActionResult Login() 
+        {
+            ViewBag.Message = "Login";
+            return View();
+        }
     }
 }
